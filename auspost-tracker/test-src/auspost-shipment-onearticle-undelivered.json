@@ -1,0 +1,173 @@
+[
+    {
+        "status": 200,
+        "trackingIds": [
+            "EJ230295879AU"
+        ],
+        "shipment": {
+            "status": "Success",
+            "consignmentId": "EJ230295879AU",
+            "articles": [
+                {
+                    "articleId": "EJ230295879AU",
+                    "status": {
+                        "statusAttributeName": "Delivery Status of Article",
+                        "statusAttributeValue": "Despatched",
+                        "statusModificationDateTime": 1538581760000
+                    },
+                    "atlStatus": null,
+                    "trackStatusOfArticle": "Despatched",
+                    "statusColour": "#8177e7",
+                    "nickname": null,
+                    "articleRedirect": false,
+                    "userOwnership": false,
+                    "atlEligible": false,
+                    "redirectIneligibility": {
+                        "code": "1",
+                        "reason": "Redirect is disallowed by subproduct and/or service code"
+                    },
+                    "safeDropIneligibility": {
+                        "code": "3",
+                        "reason": "Article is an outbound international article"
+                    },
+                    "awaitingCollectionWorkCentreId": null,
+                    "awaitingCollectionDeliveryPointId": null,
+                    "atlLocation": null,
+                    "merchantId": "N/A",
+                    "details": [
+                        {
+                            "articleId": "EJ230295879AU",
+                            "consignmentId": "EJ230295879AU",
+                            "articleType": "International Express",
+                            "sender": null,
+                            "address": {
+                                "addressee": null,
+                                "addressLine1": null,
+                                "addressLine2": null,
+                                "addressLine3": null,
+                                "suburb": null,
+                                "state": null,
+                                "postCode": null,
+                                "country": null,
+                                "countryName": "Vietnam",
+                                "articleAddressType": "POSTAL",
+                                "internationalAddress": false,
+                                "postalAddress": true,
+                                "customerPickupAddress": false,
+                                "email": null,
+                                "mobile": null,
+                                "phone": null
+                            },
+                            "fromAddress": {
+                                "addressee": null,
+                                "addressLine1": null,
+                                "addressLine2": null,
+                                "addressLine3": null,
+                                "suburb": null,
+                                "state": null,
+                                "postCode": null,
+                                "country": null,
+                                "countryName": "Australia",
+                                "articleAddressType": "POSTAL",
+                                "internationalAddress": false,
+                                "postalAddress": true,
+                                "customerPickupAddress": false,
+                                "email": null,
+                                "mobile": null,
+                                "phone": null
+                            },
+                            "accessCode": null,
+                            "deliveredByDate": null,
+                            "deliveredByDateISO": null,
+                            "dateRevised": false,
+                            "redirectStatus": null,
+                            "displayEstimatorLink": false,
+                            "extendedDescription": null,
+                            "toolTipText": null,
+                            "events": [
+                                {
+                                    "dateTime": 1538581760000,
+                                    "localeDateTime": "2018-10-04T01:49:20+10:00",
+                                    "description": "International departure - enroute to Vietnam",
+                                    "location": "SYDNEY NSW",
+                                    "eventCode": "INT-0008"
+                                },
+                                {
+                                    "dateTime": 1538572201000,
+                                    "localeDateTime": "2018-10-03T23:10:01+10:00",
+                                    "description": "Item processed at facility",
+                                    "location": "SYDNEY NSW",
+                                    "eventCode": "NSS-ER42"
+                                },
+                                {
+                                    "dateTime": 1538572201000,
+                                    "localeDateTime": "2018-10-03T23:10:01+10:00",
+                                    "description": "Arrived at facility",
+                                    "location": "Sydney NSW",
+                                    "eventCode": "INT-0003"
+                                },
+                                {
+                                    "dateTime": 1538561330000,
+                                    "localeDateTime": "2018-10-03T20:08:50+10:00",
+                                    "description": "Item processed at facility",
+                                    "location": "STRATHFIELD NSW",
+                                    "eventCode": "NSS-ER42"
+                                },
+                                {
+                                    "dateTime": 1538544943000,
+                                    "localeDateTime": "2018-10-03T15:35:43+10:00",
+                                    "description": "Received by Australia Post",
+                                    "location": "GREEN VALLEY NSW",
+                                    "eventCode": "AFC-ER31"
+                                }
+                            ],
+                            "milestones": [
+                                {
+                                    "name": "Your parcel is coming",
+                                    "colour": "#8177e7",
+                                    "status": "Complete",
+                                    "progressPercentage": 10,
+                                    "dateTime": null,
+                                    "eventCode": null
+                                },
+                                {
+                                    "name": "We've got it",
+                                    "colour": "#8177e7",
+                                    "status": "Complete",
+                                    "progressPercentage": 25,
+                                    "dateTime": "2018-10-03T15:35:43+10:00",
+                                    "eventCode": "AFC-ER31"
+                                },
+                                {
+                                    "name": "It's on its way",
+                                    "colour": "#009fda",
+                                    "status": "Current",
+                                    "progressPercentage": 45,
+                                    "dateTime": "2018-10-04T01:49:20+10:00",
+                                    "eventCode": "INT-0008"
+                                },
+                                {
+                                    "name": "It's coming today",
+                                    "colour": "#009fda",
+                                    "status": "Pending",
+                                    "progressPercentage": 90,
+                                    "dateTime": null,
+                                    "eventCode": null
+                                },
+                                {
+                                    "name": "Delivered",
+                                    "colour": "#00ac3e",
+                                    "status": "Pending",
+                                    "progressPercentage": 100,
+                                    "dateTime": null,
+                                    "eventCode": null
+                                }
+                            ],
+                            "hasNotification": null
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+]
