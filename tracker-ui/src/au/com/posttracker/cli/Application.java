@@ -81,9 +81,17 @@ public class Application {
                 .orElse("");
 
         return "" +
-                "  " + "=> " + "Item ID     : " + item.getItemId() + "\n" +
-                "  " + "   " + "Status      : " + item.getDeliveryStatus() + deliveryDateTime + "\n" +
-                "  " + "   " + "Progress (%): " + item.getProgressPercentage() + "\n" +
-                "  " + "   " + "Journey     : " + item.getSourceCountryName() + " -> " + item.getDestinationCountryName();
+                "  " + "=> " + "Item ID         : " + item.getItemId() + "\n" +
+                "  " + "   " + "Shipment type   : " + item.getShipmentType() + "\n" +
+                "  " + "   " + "Status          : " + item.getDeliveryStatus() + deliveryDateTime + "\n" +
+                "  " + "   " + "Progress (%)    : " + item.getProgressPercentage() + "\n" +
+                "  " + "   " + "Journey         : " + printShipmentItemJourney(item);
+    }
+
+    private String printShipmentItemJourney(ShipmentItem item) {
+        if (item.getSourceCountryName() == null && item.getDestinationCountryName() == null) {
+            return "Domestic";
+        }
+        return "International (" + item.getSourceCountryName() + " -> " + item.getDestinationCountryName() + ")";
     }
 }
